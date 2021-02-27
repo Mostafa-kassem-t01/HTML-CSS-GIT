@@ -6,4 +6,20 @@
   padding: 0.5em;
 }
 
-/* Add your own CSS code below */
+.countries--first {
+  justify-content: flex-start;
+}
+
+.countries--second {
+  justify-content: space-around;
+}
+
+.countries--third {
+  flex-direction: column;
+  justify-content: start;
+}
+
+.countries--fourth {
+  justify-content: space-around;
+  flex-direction: column-reverse;
+}

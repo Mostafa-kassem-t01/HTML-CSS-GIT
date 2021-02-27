@@ -1,9 +1,9 @@
-ul.countries--third {
+ul.countries--first {
   display: flex;
-  flex-direction: column-reverse;
+  flex-direction: row-reverse;
 }
 
-ul.countries--first {
+ul.countries--third {
   display: flex;
   flex-direction: column-reverse;
 }
