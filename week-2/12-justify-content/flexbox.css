@@ -22,4 +22,5 @@ ul.countries--first {
 .countries--fourth {
   justify-content: space-evenly;
   flex-direction: column;
+  flex-direction: column-reverse;
 }
