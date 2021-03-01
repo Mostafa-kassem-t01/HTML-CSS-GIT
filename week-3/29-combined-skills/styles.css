@@ -1,3 +1,49 @@
 span.heart{
-    background-color: #c85308;
+	color: #c85308;
+}
+
+@media screen and (min-width: 992px){
+	.hero__title{
+		font-size: 4em;
+	}
+}
+
+.main-nav__list{
+	display: flex;
+	justify-content: space-around ;
+}
+
+@media screen and (min-width: 767px){
+	.site-header{
+		display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+	}
+    .site-header__title , .main-nav , .site-search , .views__title{
+        align-self: center;
+    }
+    .views{
+		display: flex;
+        flex-direction: row;
+	}
+    .view-list__item{
+        text-align: center;
+        align-self: center;
+        padding-left: 15px;
+    }
+    .views__all{
+        position:absolute;                                           
+        right:0;
+        padding-right: 15px;
+    }
+}
+
+.main-article{
+    max-width: 50em;
+    line-height: 1.7;
+}
+
+.site-content{
+    display: flex;
+    justify-content: center;
 }
