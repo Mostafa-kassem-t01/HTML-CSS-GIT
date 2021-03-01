@@ -1,0 +1,48 @@
+#img-merge {
+    width: 600px;
+    height: 100px;
+    margin: auto;
+  }
+img{
+    width: 110px;
+    height: 100px;
+  }
+
+b {color:red;}
+b:hover{text-decoration:underline;
+    color :white;
+     background-color:red;}
+    
+header{color: darkblue;
+    font-size: 30px;
+text-align: center;}
+     u:hover{text-decoration:underline;
+    color :white;
+     background-color:darkblue;}
+footer{
+    text-align: center;
+}
+
+li{
+    font-size: 20px;
+}
+li:hover{
+    font-size: 25px;
+}
+#divul {
+    width: 600px;
+    height: 100px;
+    margin: auto;
+  }
+
+  i:hover{text-decoration:underline;
+    color :white;
+     background-color:darkblue;}
+
+a:hover{
+    font-size: 30px;
+}
+
+p:hover{
+    text-decoration: underline;
+}
